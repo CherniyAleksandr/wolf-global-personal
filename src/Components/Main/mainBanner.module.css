@@ -1,0 +1,49 @@
+.bannerContainer {
+  background-image: url(../../assets/images/Main/main-banner.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 30px;
+}
+
+
+.informationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: start;
+  align-items: flex-start;
+  margin: 100px 0px 50px 5px;
+}
+
+.mainTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  color: #ff6e00;
+}
+
+.mainText {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.mainButton {
+  border: 2px solid #fafafa;
+  border-radius: 100px;
+  width: 226px;
+  height: 82px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #fafafa;
+  background: transparent;
+  margin-top: 100px;
+}

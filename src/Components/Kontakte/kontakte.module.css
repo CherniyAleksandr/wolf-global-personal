@@ -1,0 +1,52 @@
+.kontakteContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+.kontakteTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.kontakteCardsWrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px ;
+}
+
+.kontakteCard {
+  width: auto;
+  height: auto;
+}
+
+.cardItems {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: start;
+  gap: 5px;
+  list-style: none;
+}
+
+.cardItems > li {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 170%;
+}
+.kontakteCardMap {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Если требуется применить стили к самому компоненту Map, можно использовать дочерний селектор */
+.kontakteCardMap iframe {
+    border: none;
+    width: 700px  ;
+    height: 100%;
+}

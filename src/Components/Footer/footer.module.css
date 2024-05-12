@@ -1,0 +1,16 @@
+.footerWrapper {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.footerWrapper > a {
+    text-decoration: none;
+    color: #fff;
+}

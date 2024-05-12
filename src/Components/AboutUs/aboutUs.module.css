@@ -1,0 +1,31 @@
+.aboutUsContainer {
+  background-color: #d7bca7;
+  padding: 50px 0px;
+}
+
+.aboutTextContainer {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 32px;
+  max-width: 800px;
+  max-height: 475px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+  padding: 40px;
+}
+
+.aboutUsTitle {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: #232323;
+}
+
+.aboutUsText {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #232323;
+}

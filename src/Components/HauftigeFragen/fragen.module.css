@@ -1,0 +1,43 @@
+.fragenContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  background-color: #d7bca7;
+  padding: 50px;
+}
+.fragenInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.fragenInfoItem {
+  border-radius: 32px;
+  max-width: 848px;
+  max-height: 222px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.fragenInfoItem > h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.fragenInfoItem > p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.fragenInfoTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}

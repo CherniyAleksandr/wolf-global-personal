@@ -1,0 +1,58 @@
+.leistungenContainer {
+  padding: 50px;
+  background-image: url(../../assets/images/Leistungen/fire1.jpg);
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.leistungenTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: #c36117;
+}
+
+.leistungenText {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #c36117;
+}
+
+.leistungenItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  grid-gap: 20px; 
+}
+
+.leistungenItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+  border-radius: 32px;
+  align-items: center;
+}
+
+.leistungenItem > h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.leistungenItem > p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+}

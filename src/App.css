@@ -1,5 +1,17 @@
+:root {
+  --font-family: "Brygada 1918", sans-serif;
+  --second-family: "Roboto", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  padding: 0px;
 }
 
 .App-logo {
@@ -26,6 +38,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {

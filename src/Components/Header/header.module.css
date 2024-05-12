@@ -1,0 +1,68 @@
+.header {
+  border-radius: 1920px;
+  max-width: 1320px;
+  height: 90px;
+  box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 5px;
+  margin: 0 auto;
+}
+
+.listItems {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 100px;
+}
+.listItem {
+  list-style: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+  color: #232323;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.listContainer {
+  display: flex;
+}
+
+.logoTextWrapper{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.logoText {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 21px;
+}
+
+.headerButton {
+  border: 2px solid #232342;
+  border-radius: 100px;
+  width: 367px;
+  height: 72px;
+  padding: 5px;
+  background: #d7bca7;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 150%;
+  text-align: center;
+  color: #232342;
+  cursor: pointer;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 100px;
+}

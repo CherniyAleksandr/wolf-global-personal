@@ -1,0 +1,35 @@
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.teamCard {
+  width: auto;
+  height: auto;
+}
+
+.teamCard > span {
+  display: block;
+  background: black;
+  border-bottom: 2px solid black;
+  height: 2px;
+  width: 100%;
+}
+
+.teamImg {
+  width: 100%; /* Сделать ширину картинки равной 100% от родительского элемента (.teamCard) */
+  height: auto; /* Позволяет изображению сохранять пропорции, чтобы избежать искажений */
+  display: block; /* Устанавливает картинку как блочный элемент */
+  max-width: 100%; /* Не дает изображению быть больше, чем его оригинальный размер */
+  max-height: 100%; /* Не дает изображению быть выше, чем его оригинальный размер */
+  border-radius: 30px;
+  margin-bottom: 5px;
+}
