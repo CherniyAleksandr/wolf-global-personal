@@ -1,15 +1,17 @@
 .header {
   position: fixed;
+  left: 198px;
   border-radius: 1920px;
   max-width: 1320px;
   height: 90px;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2px 5px;
   margin: 0 auto;
+  z-index: 999;
 }
 
 .listItems {
@@ -33,7 +35,7 @@
   display: flex;
 }
 
-.logoTextWrapper{
+.logoTextWrapper {
   display: flex;
   align-items: center;
   text-align: center;
