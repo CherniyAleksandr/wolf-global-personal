@@ -1,14 +1,31 @@
 .bannerContainer {
+  position: relative; /* Чтобы псевдоэлемент был относительно этого контейнера */
   background-image: url(../../assets/images/Main/main-banner.jpg);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 10px 30px;
+  padding: 10px 30px 50px 30px;
 }
 
+.bannerContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Затемнение фона (черный с прозрачностью 0.5) */
+  z-index: 0; /* Чтобы слой был выше изображения */
+}
 
 .informationContainer {
+  position: relative; /* Чтобы контент оставался выше слоя затемнения */
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -23,6 +40,7 @@
   font-size: 80px;
   line-height: 100%;
   color: #ff6e00;
+  margin-top: 80px;
 }
 
 .mainText {
